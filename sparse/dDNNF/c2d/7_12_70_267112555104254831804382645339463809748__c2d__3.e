@@ -1,0 +1,2 @@
+Memory allocation failed for CreateCoarseHGraph: coarser->edgewgt. Requested size: 27220 bytes
+

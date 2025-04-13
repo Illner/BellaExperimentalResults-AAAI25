@@ -1,0 +1,391 @@
+c [33mBenchmark Information[0m
+c Number of variables: 1266150
+c Number of clauses: 1268880
+c Number of literals: 6335025
+c Preproc options: 
+c Integer mode 
+c
+c [1m[32mOption list [0m
+c Caching: 1
+c Reduce cache procedure level: 20
+c Strategy for Reducing the cache: 0
+c Cache representation: CL
+c Part of the formula that is cached: NT
+c Variable heuristic: VSADS
+c Phase heuristic: TRUE
+c Partitioning heuristic: CB + graph reduction + equivalence simplication
+c
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c   #compile |       time |    #posHit |    #negHit |     #split |    Mem(MB) |     #nodes |     #edges | #equivCall | #Dec. Node | #paritioner |  limit dyn | 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c top 5: -2 
+c top 5: -2 -7 
+c top 5: -2 -7 -11 
+c top 5: -2 -7 -11 -12 
+c unitLits 1048577 4194308 Bytes
+c freeVariables 1048577
+c      16384 |     236.50 |        454 |       8221 |       1053 |       1735 |      95058 |     104170 |          0 |       8221 |        5773 |          0 | 
+c      32768 |     240.22 |       1172 |      16409 |       2361 |       1736 |     190572 |     209092 |          0 |      16409 |       11567 |          0 | 
+c      49152 |     247.06 |       2137 |      24609 |       3906 |       1738 |     285980 |     314114 |          0 |      24609 |       17323 |          0 | 
+c freeVariables 2097153
+c      65536 |     254.69 |       4687 |      32802 |       7041 |       1744 |     381551 |     420779 |          0 |      32802 |       22995 |          0 | 
+c freeVariables 3145729
+c      81920 |     262.34 |       7271 |      40992 |      10210 |       1756 |     477168 |     527526 |          0 |      40992 |       28667 |          0 | 
+c      98304 |     270.09 |       9828 |      49186 |      13359 |       1756 |     572805 |     634271 |          0 |      49186 |       34361 |          0 | 
+c freeVariables 4194305
+c     114688 |     277.81 |      12461 |      57372 |      16570 |       1756 |     668450 |     741089 |          0 |      57372 |       40071 |          0 | 
+c     131072 |     285.62 |      15105 |      65565 |      19803 |       1756 |     764076 |     847902 |          0 |      65565 |       45779 |          0 | 
+c freeVariables 5242881
+c     147456 |     293.44 |      17749 |      73761 |      23036 |       1776 |     859646 |     954655 |          0 |      73761 |       51445 |          0 | 
+c freeVariables 6291457
+c     163840 |     301.32 |      20394 |      81956 |      26269 |       1780 |     955226 |    1061418 |          0 |      81956 |       57151 |          0 | 
+c unitLits 2097153 8388612 Bytes
+c     180224 |     305.85 |      23040 |      90132 |      29475 |       1780 |    1051026 |    1168418 |          0 |      90132 |       62865 |          0 | 
+c freeVariables 7340033
+c     196608 |     313.74 |      25645 |      98324 |      32680 |       1784 |    1146621 |    1275153 |          0 |      98324 |       68572 |          0 | 
+c freeVariables 8388609
+c     212992 |     321.53 |      28198 |     106512 |      35807 |       1788 |    1242314 |    1381960 |          0 |     106512 |       74254 |          0 | 
+c     229376 |     329.35 |      30779 |     114713 |      38984 |       1788 |    1337782 |    1488533 |          0 |     114713 |       79969 |          0 | 
+c freeVariables 9437185
+c     245760 |     337.16 |      33354 |     122900 |      42139 |       1792 |    1433485 |    1595370 |          0 |     122900 |       85681 |          0 | 
+c freeVariables 10485761
+c     262144 |     344.91 |      35913 |     131096 |      45288 |       1796 |    1528989 |    1701964 |          0 |     131096 |       91352 |          0 | 
+c     278528 |     352.96 |      38497 |     139286 |      48457 |       1796 |    1624649 |    1808754 |          0 |     139286 |       97057 |          0 | 
+c freeVariables 11534337
+c     294912 |     401.38 |      40942 |     147484 |      51486 |       1802 |    1720193 |    1915291 |          0 |     147484 |      102754 |          0 | 
+c freeVariables 12582913
+c freeVariables 13631489
+c freeVariables 14680065
+c     311296 |     429.08 |      57858 |     155679 |      68998 |       1815 |    1816839 |    2036349 |          0 |     155679 |      107826 |          0 | 
+c freeVariables 15728641
+c freeVariables 16777217
+c freeVariables 17825793
+c freeVariables 18874369
+c freeVariables 19922945
+c     327680 |     464.51 |      81745 |     163858 |      93457 |       1835 |    1914162 |    2164549 |          0 |     163858 |      112589 |          0 | 
+c freeVariables 20971521
+c unitLits 3145729 12582916 Bytes
+c     344064 |     520.50 |      88282 |     172060 |     100589 |       1851 |    2009896 |    2275060 |          0 |     172060 |      118106 |          0 | 
+c freeVariables 22020097
+c freeVariables 23068673
+c freeVariables 24117249
+c     360448 |     550.57 |     105375 |     180250 |     118263 |       1863 |    2106603 |    2396345 |          0 |     180250 |      123176 |          0 | 
+c freeVariables 25165825
+c freeVariables 26214401
+c freeVariables 27262977
+c freeVariables 28311553
+c freeVariables 29360129
+c     376832 |     586.65 |     130370 |     188436 |     143832 |       1883 |    2203951 |    2525609 |          0 |     188436 |      127897 |          0 | 
+c freeVariables 30408705
+c     393216 |     641.29 |     136172 |     196630 |     150218 |       1887 |    2299764 |    2635532 |          0 |     196630 |      133441 |          0 | 
+c freeVariables 31457281
+c freeVariables 32505857
+c freeVariables 33554433
+c freeVariables 34603009
+c     409600 |     670.04 |     153864 |     204824 |     168496 |       1903 |    2396455 |    2757357 |          0 |     204824 |      138473 |          0 | 
+c freeVariables 35651585
+c freeVariables 36700161
+c freeVariables 37748737
+c freeVariables 38797313
+c freeVariables 39845889
+c     425984 |     709.27 |     178836 |     213024 |     194064 |       1923 |    2493620 |    2886395 |          0 |     213024 |      143181 |          0 | 
+c Allocate a new page for the cache 76526
+c freeVariables 40894465
+c     442368 |     761.86 |     184027 |     221214 |     199843 |       2439 |    2589390 |    2995716 |          0 |     221214 |      148762 |          0 | 
+c freeVariables 41943041
+c freeVariables 42991617
+c freeVariables 44040193
+c     458752 |     792.63 |     202541 |     229400 |     218931 |       2452 |    2686252 |    3118485 |          0 |     229400 |      153754 |          0 | 
+c freeVariables 45088769
+c freeVariables 46137345
+c freeVariables 47185921
+c freeVariables 48234497
+c freeVariables 49283073
+c     475136 |     833.66 |     226725 |     237594 |     243707 |       2472 |    2783395 |    3246772 |          0 |     237594 |      158501 |          0 | 
+c freeVariables 50331649
+c     491520 |     886.77 |     231916 |     245784 |     249486 |       2476 |    2879204 |    3356133 |          0 |     245784 |      164082 |          0 | 
+c freeVariables 51380225
+c unitLits 4194305 16777220 Bytes
+c freeVariables 52428801
+c freeVariables 53477377
+c     507904 |     918.25 |     251429 |     253974 |     269566 |       2505 |    2976086 |    3479837 |          0 |     253974 |      169038 |          0 | 
+c freeVariables 54525953
+c freeVariables 55574529
+c freeVariables 56623105
+c freeVariables 57671681
+c freeVariables 58720257
+c     524288 |     959.19 |     274614 |     262164 |     293350 |       2525 |    3073238 |    3607218 |          0 |     262164 |      173792 |          0 | 
+c freeVariables 59768833
+c     540672 |    1013.08 |     279772 |     270368 |     299097 |       2529 |    3168916 |    3716405 |          0 |     270368 |      179373 |          0 | 
+c freeVariables 60817409
+c freeVariables 61865985
+c freeVariables 62914561
+c freeVariables 63963137
+c     557056 |    1048.11 |     299700 |     278558 |     319606 |       2545 |    3265773 |    3840467 |          0 |     278558 |      184301 |          0 | 
+c freeVariables 65011713
+c freeVariables 66060289
+c freeVariables 67108865
+c freeVariables 68157441
+c     573440 |    1085.24 |     323298 |     286738 |     343775 |       2561 |    3363096 |    3968414 |          0 |     286738 |      189094 |          0 | 
+c freeVariables 69206017
+c freeVariables 70254593
+c     589824 |    1139.13 |     327661 |     294938 |     348740 |       2569 |    3458690 |    4076781 |          0 |     294938 |      194708 |          0 | 
+c freeVariables 71303169
+c freeVariables 72351745
+c freeVariables 73400321
+c     606208 |    1173.94 |     347589 |     303128 |     369249 |       2581 |    3555591 |    4200888 |          0 |     303128 |      199636 |          0 | 
+c freeVariables 74448897
+c freeVariables 75497473
+c freeVariables 76546049
+c freeVariables 77594625
+c freeVariables 78643201
+c     622592 |    1211.92 |     372186 |     311314 |     394420 |       2601 |    3652916 |    4329760 |          0 |     311314 |      204375 |          0 | 
+c freeVariables 79691777
+c     638976 |    1265.01 |     375550 |     319508 |     398383 |       2605 |    3748532 |    4437226 |          0 |     319508 |      210028 |          0 | 
+c freeVariables 80740353
+c freeVariables 81788929
+c freeVariables 82837505
+c freeVariables 83886081
+c     655360 |    1299.85 |     395680 |     327702 |     419084 |       2621 |    3845432 |    4561520 |          0 |     327702 |      214966 |          0 | 
+c freeVariables 84934657
+c freeVariables 85983233
+c unitLits 5242881 20971524 Bytes
+c freeVariables 87031809
+c freeVariables 88080385
+c     671744 |    1338.44 |     420891 |     335888 |     444883 |       2641 |    3942756 |    4690958 |          0 |     335888 |      219665 |          0 | 
+c freeVariables 89128961
+c Allocate a new page for the cache 350086
+c     688128 |    1392.32 |     423406 |     344092 |     447994 |       3157 |    4038206 |    4797459 |          0 |     344092 |      225364 |          0 | 
+c freeVariables 90177537
+c freeVariables 91226113
+c freeVariables 92274689
+c freeVariables 93323265
+c     704512 |    1430.70 |     444357 |     352278 |     469519 |       3173 |    4135226 |    4922645 |          0 |     352278 |      230247 |          0 | 
+c freeVariables 94371841
+c freeVariables 95420417
+c freeVariables 96468993
+c freeVariables 97517569
+c freeVariables 98566145
+c     720896 |    1520.33 |     468891 |     360483 |     494651 |       3193 |    4232343 |    5051227 |          0 |     360483 |      234975 |          0 | 
+c freeVariables 99614721
+c     737280 |    1528.11 |     471295 |     368662 |     497637 |       3197 |    4328010 |    5157866 |          0 |     368662 |      240684 |          0 | 
+c freeVariables 100663297
+c freeVariables 101711873
+c freeVariables 102760449
+c     753664 |    1566.44 |     493245 |     376852 |     520154 |       3209 |    4425057 |    5283994 |          0 |     376852 |      245531 |          0 | 
+c freeVariables 103809025
+c freeVariables 104857601
+c freeVariables 105906177
+c freeVariables 106954753
+c freeVariables 108003329
+c     770048 |    1653.51 |     516708 |     385056 |     544210 |       3229 |    4522092 |    5411497 |          0 |     385056 |      250293 |          0 | 
+c freeVariables 109051905
+c     786432 |    1661.38 |     519162 |     393232 |     547238 |       3233 |    4617887 |    5518321 |          0 |     393232 |      256004 |          0 | 
+c freeVariables 110100481
+c freeVariables 111149057
+c freeVariables 112197633
+c freeVariables 113246209
+c     802816 |    1700.71 |     541920 |     401422 |     570579 |       3249 |    4714966 |    5645241 |          0 |     401422 |      260815 |          0 | 
+c freeVariables 114294785
+c freeVariables 115343361
+c freeVariables 116391937
+c freeVariables 117440513
+c freeVariables 118489089
+c     819200 |    1790.10 |     564525 |     409628 |     593783 |       3269 |    4811918 |    5771860 |          0 |     409628 |      265628 |          0 | 
+c unitLits 6291457 25165828 Bytes
+c     835584 |    1798.03 |     567040 |     417816 |     596891 |       3273 |    4907518 |    5878536 |          0 |     417816 |      271340 |          0 | 
+c freeVariables 119537665
+c freeVariables 120586241
+c freeVariables 121634817
+c freeVariables 122683393
+c freeVariables 123731969
+c     851968 |    1839.53 |     589803 |     426006 |     620235 |       3293 |    5004615 |    6005467 |          0 |     426006 |      276141 |          0 | 
+c freeVariables 124780545
+c freeVariables 125829121
+c freeVariables 126877697
+c freeVariables 127926273
+c     868352 |    1926.43 |     612339 |     434207 |     643356 |       3309 |    5101633 |    6132104 |          0 |     434207 |      280955 |          0 | 
+c freeVariables 128974849
+c     884736 |    1934.52 |     614929 |     442386 |     646534 |       3313 |    5197350 |    6238971 |          0 |     442386 |      286660 |          0 | 
+c freeVariables 130023425
+c freeVariables 131072001
+c freeVariables 132120577
+c freeVariables 133169153
+c     901120 |    1976.28 |     637696 |     450580 |     669878 |       3329 |    5294427 |    6365879 |          0 |     450580 |      291480 |          0 | 
+c freeVariables 134217729
+c freeVariables 135266305
+c freeVariables 136314881
+c freeVariables 137363457
+c Allocate a new page for the cache 12736
+c freeVariables 138412033
+c     917504 |    2059.38 |     660153 |     458780 |     692929 |       3861 |    5391390 |    6492395 |          0 |     458780 |      296303 |          0 | 
+c     933888 |    2070.44 |     662782 |     466972 |     696134 |       3861 |    5487047 |    6599215 |          0 |     466972 |      302003 |          0 | 
+c freeVariables 139460609
+c freeVariables 140509185
+c freeVariables 141557761
+c freeVariables 142606337
+c     950272 |    2108.71 |     686173 |     475156 |     720107 |       3877 |    5584230 |    6726835 |          0 |     475156 |      306770 |          0 | 
+c freeVariables 143654913
+c freeVariables 144703489
+c freeVariables 145752065
+c freeVariables 146800641
+c freeVariables 147849217
+c     966656 |    2368.26 |     707970 |     483364 |     742488 |       3936 |    5681071 |    6852587 |          0 |     483364 |      311621 |          0 | 
+c freeVariables 148897793
+c     983040 |    2379.57 |     710558 |     491554 |     745665 |       3942 |    5776726 |    6959381 |          0 |     491554 |      317321 |          0 | 
+c freeVariables 149946369
+c freeVariables 150994945
+c unitLits 7340033 29360132 Bytes
+c freeVariables 152043521
+c     999424 |    2414.36 |     729983 |     499742 |     765679 |       3958 |    5873588 |    7082993 |          0 |     499742 |      322301 |          0 | 
+c freeVariables 153092097
+c freeVariables 154140673
+c freeVariables 155189249
+c freeVariables 156237825
+c    1015808 |    2450.11 |     750546 |     507924 |     786817 |       3974 |    5970622 |    7207838 |          0 |     507924 |      327221 |          0 | 
+c freeVariables 157286401
+c freeVariables 158334977
+c freeVariables 159383553
+c freeVariables 160432129
+c freeVariables 161480705
+c freeVariables 162529281
+c freeVariables 163577857
+c freeVariables 164626433
+c freeVariables 165675009
+c freeVariables 166723585
+c    1032192 |    2617.34 |     804798 |     516124 |     841648 |       4017 |    6069917 |    7366147 |          0 |     516124 |      330616 |          0 | 
+c freeVariables 167772161
+c freeVariables 168820737
+c freeVariables 169869313
+c freeVariables 170917889
+c freeVariables 171966465
+c freeVariables 173015041
+c freeVariables 174063617
+c freeVariables 175112193
+c freeVariables 176160769
+c freeVariables 177209345
+c freeVariables 178257921
+c freeVariables 179306497
+c freeVariables 180355073
+c freeVariables 181403649
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c   #compile |       time |    #posHit |    #negHit |     #split |    Mem(MB) |     #nodes |     #edges | #equivCall | #Dec. Node | #paritioner |  limit dyn | 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c    1048576 |    2767.47 |     879084 |     524310 |     916524 |       4073 |    6170788 |    7544628 |          0 |     524310 |      333152 |          0 | 
+c freeVariables 182452225
+c Allocate a new page for the cache 55896
+c freeVariables 183500801
+c freeVariables 184549377
+c freeVariables 185597953
+c freeVariables 186646529
+c freeVariables 187695105
+c freeVariables 188743681
+c freeVariables 189792257
+c freeVariables 190840833
+c freeVariables 191889409
+c freeVariables 192937985
+c freeVariables 193986561
+c freeVariables 195035137
+c    1064960 |    2964.16 |     952262 |     532506 |     990283 |       4637 |    6271559 |    7721966 |          0 |     532506 |      335733 |          0 | 
+c freeVariables 196083713
+c freeVariables 197132289
+c freeVariables 198180865
+c freeVariables 199229441
+c freeVariables 200278017
+c freeVariables 201326593
+c freeVariables 202375169
+c freeVariables 203423745
+c freeVariables 204472321
+c freeVariables 205520897
+c freeVariables 206569473
+c freeVariables 207618049
+c freeVariables 208666625
+c freeVariables 209715201
+c    1081344 |    3113.57 |    1025948 |     540694 |    1064555 |       4709 |    6372304 |    7899757 |          0 |     540694 |      338294 |          0 | 
+c freeVariables 210763777
+c freeVariables 211812353
+c freeVariables 212860929
+c freeVariables 213909505
+c freeVariables 214958081
+c freeVariables 216006657
+c freeVariables 217055233
+c freeVariables 218103809
+c freeVariables 219152385
+c freeVariables 220200961
+c freeVariables 221249537
+c freeVariables 222298113
+c freeVariables 223346689
+c freeVariables 224395265
+c    1097728 |    3312.02 |    1099722 |     548891 |    1138918 |       4765 |    6473125 |    8077691 |          0 |     548891 |      340839 |          0 | 
+c freeVariables 225443841
+c freeVariables 226492417
+c freeVariables 227540993
+c freeVariables 228589569
+c freeVariables 229638145
+c Allocate a new page for the cache 98126
+c freeVariables 230686721
+c freeVariables 231735297
+c freeVariables 232783873
+c freeVariables 233832449
+c freeVariables 234881025
+c freeVariables 235929601
+c freeVariables 236978177
+c freeVariables 238026753
+c    1114112 |    3458.67 |    1172868 |     557074 |    1212642 |       5329 |    6573914 |    8255037 |          0 |     557074 |      343436 |          0 | 
+c freeVariables 239075329
+c freeVariables 240123905
+c freeVariables 241172481
+c freeVariables 242221057
+c freeVariables 243269633
+c freeVariables 244318209
+c freeVariables 245366785
+c freeVariables 246415361
+c freeVariables 247463937
+c freeVariables 248512513
+c freeVariables 249561089
+c freeVariables 250609665
+c freeVariables 251658241
+c freeVariables 252706817
+c    1130496 |    3655.67 |    1247180 |     565277 |    1287539 |       5385 |    6674701 |    8433426 |          0 |     565277 |      345958 |          0 | 
+c freeVariables 253755393
+c freeVariables 254803969
+c freeVariables 255852545
+c freeVariables 256901121
+c freeVariables 257949697
+c freeVariables 258998273
+c freeVariables 260046849
+c freeVariables 261095425
+c freeVariables 262144001
+c freeVariables 263192577
+c freeVariables 264241153
+c freeVariables 265289729
+c freeVariables 266338305
+c    1146880 |    3804.10 |    1319727 |     573459 |    1360669 |       5437 |    6775503 |    8610236 |          0 |     573459 |      348564 |          0 | 
+c freeVariables 267386881
+c freeVariables 268435457
+c freeVariables 269484033
+c freeVariables 270532609
+c freeVariables 271581185
+c freeVariables 272629761
+c freeVariables 273678337
+c freeVariables 274726913
+c freeVariables 275775489
+c freeVariables 276824065
+c freeVariables 277872641
+c Allocate a new page for the cache 28740
+c freeVariables 278921217
+c freeVariables 279969793
+c freeVariables 281018369
+c unitLits 8388609 33554436 Bytes
+c freeVariables 282066945
+c    1163264 |    4003.52 |    1394635 |     581658 |    1436160 |       6013 |    6876315 |    8789203 |          0 |     581658 |      351058 |          0 | 
+c freeVariables 283115521
+c freeVariables 284164097
+c freeVariables 285212673
+c freeVariables 286261249
+c freeVariables 287309825
+c freeVariables 288358401
+c freeVariables 289406977
+c freeVariables 290455553
+c freeVariables 291504129
+c    1179648 |    4298.72 |    1444316 |     589862 |    1486431 |       6049 |    6975243 |    8942914 |          0 |     589862 |      3546

@@ -1,0 +1,2 @@
+/var/spool/pbs/mom_priv/jobs/2969433.pbs-m1.metacentrum.cz.SC: line 10: 74391 Killed                  ./Bella -ka -m -e -ehc_rhc -c_ccs -i ../../../../Benchmark/10_5_6_60_76279253583797128954196245820417166979.cnf -d -t 7200 -s 10_5_6_60_76279253583797128954196245820417166979__d__3.stat
+Cgroup mem limit exceeded: oom-kill:constraint=CONSTRAINT_MEMCG,nodemask=(null),cpuset=2969433.pbs-m1.metacentrum.cz,mems_allowed=0-1,oom_memcg=/pbs_jobs.service/jobid/2969433.pbs-m1.metacentrum.cz,task_memcg=/pbs_jobs.service/jobid/2969433.pbs-m1.metacentrum.cz,task=Bella,pid=74391,uid=8244
