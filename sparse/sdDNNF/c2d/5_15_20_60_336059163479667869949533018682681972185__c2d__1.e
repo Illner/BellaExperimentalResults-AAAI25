@@ -1,0 +1,35 @@
+cp: error writing 'Benchmark/5_20_11_80_143740393888177873059352637231967844808.cnf': No space left on device
+cp: error writing 'Benchmark/5_20_11_80_95071248543203010148233823854411080526.cnf': No space left on device
+cp: error writing 'Benchmark/5_20_11_80_328605027911872192603282875856075976149.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_4_70_150707612244165829369512124411426703516.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_4_70_175047793329368458700210963775518953955.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_4_70_340271192404858460051030279426093407413.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_4_70_34073719879632048120357300692991891130.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_5_60_333848155203682251940617517722621797612.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_5_60_25275907833870178965540885970172599225.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_5_60_238113483483339781055272604805509562497.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_5_60_251892683438194503803177964941611031724.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_5_60_207198132741027451251271080746718851368.cnf': No space left on device
+cp: error writing 'Benchmark/10_15_5_60_86207146366343663183804529758264447445.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_12_80_220673487967643055696313001880518965865.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_12_80_48219679938433808015337957616106713075.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_12_80_246648084222000676765809882562532755871.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_12_80_182864164049079161155095501646088187655.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_12_80_229428184113690041637997533915634485548.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_12_80_328577576945329558138079993684839605884.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_278420581989338192446656736179224346163.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_282818412993796839069544353668249537818.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_309528206395617729485054603140297167404.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_242545400721568498798061095672571048014.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_203537899008547286550617921856196603557.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_325391993186787121036367461459111667106.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/10_15_5_60_318369566465149589111759821562351017920.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/10_15_5_60_87458800262449941037123489381322195800.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/10_15_5_60_71026814737102283656708597545192920904.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/10_15_5_60_288178055320161095669255029579934188208.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_310237358415011555122098490006826062974.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_252287434008954693589975955640184878244.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_247273690206815671044283381872623351900.cnf': No space left on device
+cp: cannot create regular file 'Benchmark/5_20_15_60_5339227860713537657965348559197353982.cnf': No space left on device
+cp: cannot create regular file 'c2d': No space left on device
+/var/spool/pbs/mom_priv/jobs/2531847.pbs-m1.metacentrum.cz.SC: line 8: ./c2d: No such file or directory

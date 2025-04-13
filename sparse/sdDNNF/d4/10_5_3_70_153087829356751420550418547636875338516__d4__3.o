@@ -1,0 +1,95 @@
+c [33mBenchmark Information[0m
+c Number of variables: 32880
+c Number of clauses: 295365
+c Number of literals: 820380
+c Preproc options: 
+c Integer mode 
+c
+c [1m[32mOption list [0m
+c Caching: 1
+c Reduce cache procedure level: 20
+c Strategy for Reducing the cache: 0
+c Cache representation: CL
+c Part of the formula that is cached: NT
+c Variable heuristic: VSADS
+c Phase heuristic: TRUE
+c Partitioning heuristic: CB + graph reduction + equivalence simplication
+c
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c   #compile |       time |    #posHit |    #negHit |     #split |    Mem(MB) |     #nodes |     #edges | #equivCall | #Dec. Node | #paritioner |  limit dyn | 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c top 5: -25 
+c top 5: -25 -26 
+c top 5: -25 -26 -20 
+c top 5: -25 -26 -20 -19 
+c unitLits 1048577 4194308 Bytes
+c top 5: -25 -26 -20 19 
+c      16384 |       5.52 |      11637 |       8196 |      14940 |        682 |     301409 |     317627 |          0 |       8196 |         776 |          0 | 
+c      32768 |       8.44 |      27876 |      16387 |      33816 |        682 |     594371 |     629255 |          0 |      16387 |        1748 |          0 | 
+c top 5: -25 -26 20 
+c top 5: -25 -26 20 -11 
+c top 5: -25 -26 20 11 
+c top 5: -25 26 
+c top 5: -25 26 -20 
+c top 5: -25 26 -20 -19 
+c      49152 |      13.77 |      39086 |      24583 |      48674 |        685 |     915075 |     966275 |          0 |      24583 |        2669 |          0 | 
+c unitLits 2097153 8388612 Bytes
+c top 5: -25 26 -20 19 
+c      65536 |      17.25 |      51969 |      32772 |      64636 |        690 |    1209819 |    1278610 |          0 |      32772 |        3673 |          0 | 
+c top 5: -25 26 20 
+c top 5: -25 26 20 -11 
+c      81920 |      21.99 |      63168 |      40963 |      75363 |        691 |    1517192 |    1600705 |          0 |      40963 |        5544 |          0 | 
+c top 5: -25 26 20 11 
+c top 5: 25 
+c top 5: 25 -20 
+c top 5: 25 -20 -19 
+c top 5: 25 -20 -19 -11 
+c top 5: 25 -20 -19 11 
+c      98304 |      27.03 |      74839 |      49157 |      88356 |        692 |    1875136 |    1974659 |          0 |      49157 |        6541 |          0 | 
+c top 5: 25 -20 19 
+c top 5: 25 -20 19 -11 
+c unitLits 3145729 12582916 Bytes
+c     114688 |      30.70 |      90090 |      57349 |     105970 |        702 |    2162182 |    2279444 |          0 |      57349 |        7701 |          0 | 
+c top 5: 25 -20 19 11 
+c top 5: 25 20 
+c top 5: 25 20 -11 
+c top 5: 25 20 -11 -10 
+c top 5: 25 20 -11 10 
+c     131072 |      33.54 |     104836 |      65539 |     123865 |        702 |    2442842 |    2578212 |          0 |      65539 |        8586 |          0 | 
+c top 5: 25 20 11 
+c top 5: 25 20 11 -2 
+c top 5: 25 20 11 2 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of compiled node: 136385
+c Number of split formula: 130341
+c Number of decision node: 68192
+c Number of node built on domain constraints: 0
+c Number of decomposable AND nodes: 56703
+c Number of backbone calls: 0
+c Number of partitioner calls: 8586
+c Average number of assigned literal to obtain decomposable AND nodes: 32837.15/32880
+c Minimum number of assigned variable where a decomposable AND appeared: 32682
+c 
+c [33mGraph Information[0m
+c Number of nodes: 2589540
+c Number of edges: 2731370
+c 
+c [1m[34mCache Information[0m
+c Memory used: 702 MB
+c
+c Number of positive hit: 110046
+c Number of negative hit: 68192
+c Number of reduceCall: 0
+c
+c Final time: 33.838645
+c 
+c Cut set size (average): 4.465176
+c Total final time: 73.396814
+s 14348907
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

@@ -1,0 +1,95 @@
+c [33mBenchmark Information[0m
+c Number of variables: 57456
+c Number of clauses: 401611
+c Number of literals: 1089984
+c Preproc options: 
+c Integer mode 
+c
+c [1m[32mOption list [0m
+c Caching: 1
+c Reduce cache procedure level: 20
+c Strategy for Reducing the cache: 0
+c Cache representation: CL
+c Part of the formula that is cached: NT
+c Variable heuristic: VSADS
+c Phase heuristic: TRUE
+c Partitioning heuristic: CB + graph reduction + equivalence simplication
+c
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c   #compile |       time |    #posHit |    #negHit |     #split |    Mem(MB) |     #nodes |     #edges | #equivCall | #Dec. Node | #paritioner |  limit dyn | 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c top 5: -16 
+c top 5: -16 -13 
+c top 5: -16 -13 -15 
+c top 5: -16 -13 -15 -21 
+c unitLits 1048577 4194308 Bytes
+c      16384 |       5.65 |       9226 |       8201 |      11936 |        724 |     292986 |     311394 |          0 |       8201 |         327 |          0 | 
+c top 5: -16 -13 -15 21 
+c      32768 |      12.53 |      25559 |      16392 |      30932 |        725 |     742311 |     785346 |          0 |      16392 |         827 |          0 | 
+c top 5: -16 -13 15 
+c top 5: -16 -13 15 -21 
+c unitLits 2097153 8388612 Bytes
+c      49152 |      18.16 |      38257 |      24585 |      46312 |        731 |    1143856 |    1208032 |          0 |      24585 |        1105 |          0 | 
+c top 5: -16 -13 15 21 
+c      65536 |      26.23 |      62144 |      32769 |      72864 |        732 |    1743306 |    1838210 |          0 |      32769 |        1752 |          0 | 
+c top 5: -16 13 
+c top 5: -16 13 -21 
+c top 5: -16 13 -21 -22 
+c unitLits 3145729 12582916 Bytes
+c top 5: -16 13 -21 22 
+c      81920 |      33.21 |      77086 |      40966 |      90504 |        743 |    2222728 |    2340692 |          0 |      40966 |        2079 |          0 | 
+c top 5: -16 13 21 
+c top 5: -16 13 21 -18 
+c top 5: -16 13 21 18 
+c top 5: 16 
+c top 5: 16 -21 
+c top 5: 16 -21 -22 
+c top 5: 16 -21 -22 -23 
+c      98304 |      40.63 |      96430 |      49158 |     112520 |        743 |    2786608 |    2931426 |          0 |      49158 |        2484 |          0 | 
+c top 5: 16 -21 -22 23 
+c top 5: 16 -21 22 
+c top 5: 16 -21 22 -18 
+c unitLits 4194305 16777220 Bytes
+c top 5: 16 -21 22 18 
+c top 5: 16 21 
+c top 5: 16 21 -18 
+c top 5: 16 21 -18 -17 
+c     114688 |      49.58 |     118886 |      57350 |     137650 |        759 |    3346855 |    3521530 |          0 |      57350 |        3151 |          0 | 
+c top 5: 16 21 -18 17 
+c top 5: 16 21 18 
+c top 5: 16 21 18 -25 
+c top 5: 16 21 18 25 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of compiled node: 118783
+c Number of split formula: 145664
+c Number of decision node: 59391
+c Number of node built on domain constraints: 0
+c Number of decomposable AND nodes: 21472
+c Number of backbone calls: 0
+c Number of partitioner calls: 3312
+c Average number of assigned literal to obtain decomposable AND nodes: 57311.82/57456
+c Minimum number of assigned variable where a decomposable AND appeared: 57028
+c 
+c [33mGraph Information[0m
+c Number of nodes: 3587329
+c Number of edges: 3770912
+c 
+c [1m[34mCache Information[0m
+c Memory used: 759 MB
+c
+c Number of positive hit: 126240
+c Number of negative hit: 59391
+c Number of reduceCall: 0
+c
+c Final time: 51.313673
+c 
+c Cut set size (average): 5.792572
+c Total final time: 127.923831
+s 4398046511104
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

@@ -1,0 +1,109 @@
+c [33mBenchmark Information[0m
+c Number of variables: 98490
+c Number of clauses: 984270
+c Number of literals: 2755875
+c Preproc options: 
+c Integer mode 
+c
+c [1m[32mOption list [0m
+c Caching: 1
+c Reduce cache procedure level: 20
+c Strategy for Reducing the cache: 0
+c Cache representation: CL
+c Part of the formula that is cached: NT
+c Variable heuristic: VSADS
+c Phase heuristic: TRUE
+c Partitioning heuristic: CB + graph reduction + equivalence simplication
+c
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c   #compile |       time |    #posHit |    #negHit |     #split |    Mem(MB) |     #nodes |     #edges | #equivCall | #Dec. Node | #paritioner |  limit dyn | 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c top 5: -11 
+c top 5: -11 -10 
+c top 5: -11 -10 -17 
+c top 5: -11 -10 -17 -16 
+c unitLits 1048577 4194308 Bytes
+c      16384 |      11.40 |       7959 |       8198 |       8837 |        974 |     223319 |     237139 |          0 |       8198 |        1450 |          0 | 
+c      32768 |      20.61 |      22736 |      16390 |      24282 |        975 |     536886 |     569821 |          0 |      16390 |        3115 |          0 | 
+c top 5: -11 -10 -17 16 
+c      49152 |      27.89 |      32683 |      24583 |      37720 |        977 |     806072 |     856163 |          0 |      24583 |        4162 |          0 | 
+c unitLits 2097153 8388612 Bytes
+c top 5: -11 -10 17 
+c top 5: -11 -10 17 -22 
+c      65536 |      36.43 |      44310 |      32776 |      51571 |        982 |    1126669 |    1193734 |          0 |      32776 |        5362 |          0 | 
+c      81920 |      43.08 |      54496 |      40965 |      63737 |        984 |    1384708 |    1468005 |          0 |      40965 |        6906 |          0 | 
+c top 5: -11 -10 17 22 
+c top 5: -11 10 
+c top 5: -11 10 -17 
+c top 5: -11 10 -17 -16 
+c      98304 |      55.08 |      66431 |      49159 |      75590 |        985 |    1710161 |    1809754 |          0 |      49159 |        8530 |          0 | 
+c     114688 |      61.73 |      75960 |      57350 |      86804 |        986 |    1960129 |    2075412 |          0 |      57350 |        9683 |          0 | 
+c unitLits 3145729 12582916 Bytes
+c top 5: -11 10 -17 16 
+c     131072 |      69.20 |      86563 |      65542 |      98994 |        995 |    2235369 |    2366158 |          0 |      65542 |       10906 |          0 | 
+c     147456 |      74.26 |      96313 |      73732 |     111301 |        995 |    2479563 |    2626203 |          0 |      73732 |       12055 |          0 | 
+c top 5: -11 10 17 
+c top 5: -11 10 17 -22 
+c     163840 |      82.70 |     106877 |      81929 |     121366 |        995 |    2775856 |    2936951 |          0 |      81929 |       13800 |          0 | 
+c     180224 |      90.02 |     116826 |      90117 |     132148 |        996 |    3018750 |    3195457 |          0 |      90117 |       15421 |          0 | 
+c unitLits 4194305 16777220 Bytes
+c top 5: -11 10 17 22 
+c     196608 |      98.69 |     130827 |      98306 |     146574 |       1012 |    3318709 |    3513500 |          0 |      98306 |       17385 |          0 | 
+c top 5: 11 
+c top 5: 11 -17 
+c top 5: 11 -17 -16 
+c top 5: 11 -17 -16 -22 
+c     212992 |     109.31 |     139548 |     106502 |     157536 |       1012 |    3657455 |    3867190 |          0 |     106502 |       18432 |          0 | 
+c     229376 |     113.38 |     155891 |     114695 |     174774 |       1012 |    3887474 |    4115133 |          0 |     114695 |       19334 |          0 | 
+c top 5: 11 -17 -16 22 
+c top 5: 11 -17 16 
+c top 5: 11 -17 16 -22 
+c unitLits 5242881 20971524 Bytes
+c     245760 |     120.45 |     169748 |     122886 |     191271 |       1016 |    4176432 |    4423627 |          0 |     122886 |       20092 |          0 | 
+c     262144 |     127.63 |     182637 |     131075 |     205116 |       1016 |    4449527 |    4714448 |          0 |     131075 |       21537 |          0 | 
+c top 5: 11 -17 16 22 
+c     278528 |     133.46 |     197481 |     139269 |     220757 |       1016 |    4694945 |    4977069 |          0 |     139269 |       22726 |          0 | 
+c top 5: 11 17 
+c top 5: 11 17 -22 
+c top 5: 11 17 -22 -24 
+c top 5: 11 17 -22 24 
+c     294912 |     140.02 |     205321 |     147462 |     229263 |       1016 |    4948627 |    5244094 |          0 |     147462 |       23933 |          0 | 
+c top 5: 11 17 22 
+c top 5: 11 17 22 -25 
+c unitLits 6291457 25165828 Bytes
+c     311296 |     144.69 |     218104 |     155653 |     242999 |       1020 |    5186367 |    5497904 |          0 |     155653 |       24843 |          0 | 
+c top 5: 11 17 22 25 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of compiled node: 324005
+c Number of split formula: 254625
+c Number of decision node: 162002
+c Number of node built on domain constraints: 0
+c Number of decomposable AND nodes: 92022
+c Number of backbone calls: 0
+c Number of partitioner calls: 25797
+c Average number of assigned literal to obtain decomposable AND nodes: 98457.24/98490
+c Minimum number of assigned variable where a decomposable AND appeared: 98388
+c 
+c [33mGraph Information[0m
+c Number of nodes: 5515264
+c Number of edges: 5839869
+c 
+c [1m[34mCache Information[0m
+c Memory used: 1020 MB
+c
+c Number of positive hit: 229568
+c Number of negative hit: 162002
+c Number of reduceCall: 0
+c
+c Final time: 148.231648
+c 
+c Cut set size (average): 4.324030
+c Total final time: 811.060331
+s 14348907
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

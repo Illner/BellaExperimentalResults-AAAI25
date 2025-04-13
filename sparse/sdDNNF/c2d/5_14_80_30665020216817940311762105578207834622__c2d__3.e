@@ -1,0 +1,1 @@
+/var/spool/pbs/mom_priv/jobs/3213485.pbs-m1.metacentrum.cz.SC: line 9: 778719 Segmentation fault      ./c2d -smooth_all -in ./Benchmark/5_14_80_30665020216817940311762105578207834622.cnf

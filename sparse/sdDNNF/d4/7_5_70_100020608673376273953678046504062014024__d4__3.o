@@ -1,0 +1,97 @@
+c [33mBenchmark Information[0m
+c Number of variables: 21980
+c Number of clauses: 131474
+c Number of literals: 350490
+c Preproc options: 
+c Integer mode 
+c
+c [1m[32mOption list [0m
+c Caching: 1
+c Reduce cache procedure level: 20
+c Strategy for Reducing the cache: 0
+c Cache representation: CL
+c Part of the formula that is cached: NT
+c Variable heuristic: VSADS
+c Phase heuristic: TRUE
+c Partitioning heuristic: CB + graph reduction + equivalence simplication
+c
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c   #compile |       time |    #posHit |    #negHit |     #split |    Mem(MB) |     #nodes |     #edges | #equivCall | #Dec. Node | #paritioner |  limit dyn | 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c top 5: -10 
+c top 5: -10 -7 
+c top 5: -10 -7 -6 
+c top 5: -10 -7 -6 -9 
+c unitLits 1048577 4194308 Bytes
+c      16384 |       4.20 |      28285 |       8200 |      30277 |        614 |     684820 |     716426 |          0 |       8200 |         222 |          0 | 
+c unitLits 2097153 8388612 Bytes
+c      32768 |       8.53 |      61125 |      16393 |      65104 |        622 |    1469727 |    1536465 |          0 |      16393 |         478 |          0 | 
+c top 5: -10 -7 -6 9 
+c      49152 |      11.72 |      76900 |      24584 |      82884 |        623 |    1984006 |    2070951 |          0 |      24584 |        1151 |          0 | 
+c unitLits 3145729 12582916 Bytes
+c top 5: -10 -7 6 
+c top 5: -10 -7 6 -31 
+c      65536 |      16.13 |     105617 |      32776 |     113592 |        634 |    2714945 |    2833303 |          0 |      32776 |        1549 |          0 | 
+c top 5: -10 -7 6 31 
+c top 5: -10 7 
+c top 5: -10 7 -31 
+c top 5: -10 7 -31 -32 
+c unitLits 4194305 16777220 Bytes
+c      81920 |      19.88 |     126686 |      40965 |     136656 |        650 |    3344845 |    3487601 |          0 |      40965 |        2223 |          0 | 
+c top 5: -10 7 -31 32 
+c      98304 |      24.27 |     161930 |      49156 |     173880 |        650 |    4182511 |    4362000 |          0 |      49156 |        2581 |          0 | 
+c unitLits 5242881 20971524 Bytes
+c top 5: -10 7 31 
+c top 5: -10 7 31 -3 
+c top 5: -10 7 31 3 
+c top 5: 10 
+c top 5: 10 -31 
+c top 5: 10 -31 -32 
+c top 5: 10 -31 -32 -33 
+c     114688 |      26.31 |     170655 |      57347 |     178750 |        654 |    4537465 |    4727986 |          0 |      57347 |        4063 |          0 | 
+c top 5: 10 -31 -32 33 
+c top 5: 10 -31 32 
+c top 5: 10 -31 32 -3 
+c top 5: 10 -31 32 3 
+c top 5: 10 31 
+c top 5: 10 31 -3 
+c top 5: 10 31 -3 -1 
+c top 5: 10 31 -3 1 
+c top 5: 10 31 3 
+c top 5: 10 31 3 -11 
+c top 5: 10 31 3 11 
+c top 5: 10 31 3 11 
+c ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c
+c [1m[31mStatistics [0m
+c [33mCompilation Information[0m
+c Number of compiled node: 126449
+c Number of split formula: 183925
+c Number of decision node: 63224
+c Number of node built on domain constraints: 0
+c Number of decomposable AND nodes: 47775
+c Number of backbone calls: 0
+c Number of partitioner calls: 5040
+c Average number of assigned literal to obtain decomposable AND nodes: 21866.54/21980
+c Minimum number of assigned variable where a decomposable AND appeared: 21560
+c 
+c [33mGraph Information[0m
+c Number of nodes: 4834352
+c Number of edges: 5033726
+c 
+c [1m[34mCache Information[0m
+c Memory used: 654 MB
+c
+c Number of positive hit: 177500
+c Number of negative hit: 63224
+c Number of reduceCall: 0
+c
+c Final time: 27.702485
+c 
+c Cut set size (average): 8.119246
+c Total final time: 36.577909
+s 6103515625
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...
