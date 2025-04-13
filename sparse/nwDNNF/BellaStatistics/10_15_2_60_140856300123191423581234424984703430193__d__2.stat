@@ -1,0 +1,537 @@
+Number: formula size {Formula representation}
+1
+15500
+Number: #variables {Formula representation}
+1
+1990
+Number: #clauses {Formula representation}
+1
+1990
+Timer (reduced): initialize [ns] {Formula representation}
+1
+2066169
+Timer: compute connected components [ns] {Formula representation}
+21
+939587
+2890
+199468
+44742.238095
+Number: circuit size {Circuit}
+1
+129458
+Number: #nodes {Circuit}
+1
+63943
+Number: #edges {Circuit}
+1
+129458
+Number: #variables {Circuit}
+1
+1990
+Timer: copy subcircuit [ns] {Circuit}
+38
+22573965
+1500
+11677944
+594051.710526
+Counter: formula size (copy subcircuit) {Circuit}
+38
+22752
+8
+9156
+598.736842
+Counter: #variables (copy subcircuit) {Circuit}
+38
+3908
+4
+1282
+102.842105
+Counter: #clauses (copy subcircuit) {Circuit}
+38
+3908
+4
+1282
+102.842105
+Timer (reduced): initialize [ns] {Compiler}
+1
+4658843
+Timer (reduced): compile [ns] {Compiler}
+1
+169873915
+Number: #unsatisfiable residual formulae {Compiler}
+1
+0
+Number: #empty residual formulae {Compiler}
+1
+2
+Number: #splits {Compiler}
+1
+36
+Number: #decisions {Compiler}
+1
+11
+Counter: ratio of recomputed hypergraph cuts {Compiler}
+49
+33
+0
+1
+0.673469
+Counter: #empty hypergraph cuts / #hypergraph cuts {Compiler}
+3
+1
+0
+1
+0.333333
+Counter: #connected components {Compiler}
+21
+49
+1
+8
+2.333333
+Counter: #monotone residual formulae / #residual formulae {Compiler}
+21
+0
+0
+0
+0.000000
+Counter: monotone residual formula size {Compiler}
+0
+0
+0
+0
+0.000000
+Counter: #pure clauses / #clauses {Compiler}
+21
+0.000000
+0.000000
+0.000000
+0.000000
+Counter: pure residual formula size / residual formula size {Compiler}
+21
+0.000000
+0.000000
+0.000000
+0.000000
+Timer: assign literal [ns] {Compiler}
+44
+1943343
+290
+555955
+44166.886364
+Timer: unassign literal [ns] {Compiler}
+44
+273326
+240
+36779
+6211.954545
+Timer: get decision variable [ns] {Decision heuristic}
+11
+4460
+50
+2000
+405.454545
+Counter: #preselected variables {Decision heuristic}
+11
+50
+1
+9
+4.545455
+Counter: #restricted variables / #preselected variables {Decision heuristic}
+0
+0.000000
+0.000000
+0.000000
+0.000000
+Timer (reduced): initialize [ns] {SAT solver}
+1
+697633
+Timer (reduced): initial simplification [ns] {SAT solver}
+1
+420
+Timer (reduced): initially implied literals [ns] {SAT solver}
+1
+220
+Number: #initially implied literals {SAT solver}
+1
+0
+Number: #initially implied literals / #variables {SAT solver}
+1
+0.000000
+Timer: is satisfiable [ns] {SAT solver}
+23
+1528765
+370
+547245
+66468.043478
+Timer: unit propagation [ns] {SAT solver}
+23
+8900
+90
+1170
+386.956522
+Counter: #implied literals {SAT solver}
+23
+44
+0
+2
+1.913043
+Counter: #implied literals / #variables {SAT solver}
+23
+1.922638
+0.000000
+1.000000
+0.083593
+Timer: create implicit BCP structure [ns] {SAT solver}
+0
+0
+0
+0
+0.000000
+Timer: create equivalence preprocessing structure [ns] {SAT solver}
+3
+1127149
+31960
+1057719
+375716.333333
+Counter: #implicit implied literals / #variables {SAT solver}
+3
+0.000000
+0.000000
+0.000000
+0.000000
+Counter: #ignored variables / #variables {SAT solver}
+3
+0.358717
+0.012563
+0.173077
+0.119572
+Timer: compute cut [ns] {Partitioning hypergraph}
+2
+121269311
+2280458
+118988853
+60634655.500000
+Counter: cut size {Partitioning hypergraph}
+2
+10
+1
+9
+5.000000
+Counter: cut size / #variables {Partitioning hypergraph}
+2
+0.023753
+0.004523
+0.019231
+0.011877
+Timer: create occurrence list structure [ns] {Partitioning hypergraph}
+2
+9104369
+49699
+9054670
+4552184.500000
+Counter: #vertices {Partitioning hypergraph}
+2
+1974
+34
+1940
+987.000000
+Counter: #vertices / #clauses {Partitioning hypergraph}
+2
+1.628721
+0.653846
+0.974874
+0.814360
+Counter: #hyperedges {Partitioning hypergraph}
+2
+34
+9
+25
+17.000000
+Counter: #hyperedges / #variables {Partitioning hypergraph}
+2
+0.185640
+0.012563
+0.173077
+0.092820
+Counter: hypergraph size {Partitioning hypergraph}
+2
+13526
+66
+13460
+6763.000000
+Counter: hypergraph size / formula size {Partitioning hypergraph}
+2
+1.353681
+0.485294
+0.868387
+0.676841
+Timer: create equivalence structure [ns] {Partitioning hypergraph}
+2
+404326
+11150
+393176
+202163.000000
+Timer (reduced): creation [ns] {RenH-C recognition}
+0
+0
+Timer (reduced): initialize [ns] {RenH-C recognition}
+0
+0
+Timer: set assigned literal [ns] {RenH-C recognition}
+0
+0
+0
+0
+0.000000
+Timer: set unassigned literal [ns] {RenH-C recognition}
+0
+0
+0
+0
+0.000000
+Timer: set inactive clause [ns] {RenH-C recognition}
+0
+0
+0
+0
+0.000000
+Timer: set active clause [ns] {RenH-C recognition}
+0
+0
+0
+0
+0.000000
+Timer: is renH-C [ns] {RenH-C recognition}
+0
+0
+0
+0
+0.000000
+Counter: ratio of renH-C {RenH-C recognition}
+0
+0
+0
+0
+0.000000
+Counter: #positive hits / #hits {Cache - component caching}
+49
+38
+0
+1
+0.775510
+Number: #current entries {Cache - component caching}
+1
+11
+Number: #deleted entries {Cache - component caching}
+1
+0
+Number: #cache cleanings {Cache - component caching}
+1
+0
+Timer: create cache record structure [ns] {Cache - component caching}
+49
+10077303
+1630
+2232858
+205659.244898
+Timer: search cache record structure [ns] {Cache - component caching}
+49
+25320
+50
+6250
+516.734694
+Timer: add cache record structure [ns] {Cache - component caching}
+11
+25580
+300
+12900
+2325.454545
+Counter: #empty cache records / #cache records {Cache - component caching}
+49
+0
+0
+0
+0.000000
+Counter: formula size (cache record structure) {Cache - component caching}
+49
+60780
+8
+15500
+1240.408163
+Counter: formula size (positive hit) {Cache - component caching}
+38
+22752
+8
+9156
+598.736842
+Counter: formula size (negative hit) {Cache - component caching}
+11
+38028
+8
+15500
+3457.090909
+Counter: #variables (cache record structure) {Cache - component caching}
+49
+9694
+4
+1990
+197.836735
+Counter: #variables (positive hit) {Cache - component caching}
+38
+3908
+4
+1282
+102.842105
+Counter: #variables (negative hit) {Cache - component caching}
+11
+5786
+4
+1990
+526.000000
+Counter: #clauses (cache record structure) {Cache - component caching}
+49
+9694
+4
+1990
+197.836735
+Counter: #clauses (positive hit) {Cache - component caching}
+38
+3908
+4
+1282
+102.842105
+Counter: #clauses (negative hit) {Cache - component caching}
+11
+5786
+4
+1990
+526.000000
+Counter: #removed clauses / #clauses {Cache - component caching}
+49
+0.000000
+0.000000
+0.000000
+0.000000
+Counter: #identical mappings / #mappings {Cache - component caching}
+38
+0
+0
+0
+0.000000
+Timer: clean cache [ns] {Cache - component caching}
+0
+0
+0
+0
+0.000000
+Counter: #positive hits / #hits {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Number: #current entries {Cache - hypergraph cut caching}
+1
+0
+Number: #deleted entries {Cache - hypergraph cut caching}
+1
+0
+Number: #cache cleanings {Cache - hypergraph cut caching}
+1
+0
+Timer: create cache record structure [ns] {Cache - hypergraph cut caching}
+11
+1390
+30
+700
+126.363636
+Timer: search cache record structure [ns] {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Timer: add cache record structure [ns] {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #empty cache records / #cache records {Cache - hypergraph cut caching}
+11
+11
+1
+1
+1.000000
+Counter: formula size (cache record structure) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: formula size (positive hit) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: formula size (negative hit) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #variables (cache record structure) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #variables (positive hit) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #variables (negative hit) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #clauses (cache record structure) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #clauses (positive hit) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #clauses (negative hit) {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Counter: #removed clauses / #clauses {Cache - hypergraph cut caching}
+0
+0.000000
+0.000000
+0.000000
+0.000000
+Counter: #identical mappings / #mappings {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000
+Timer: clean cache [ns] {Cache - hypergraph cut caching}
+0
+0
+0
+0
+0.000000

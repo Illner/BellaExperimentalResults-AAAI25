@@ -1,0 +1,3 @@
+/var/spool/pbs/mom_priv/jobs/3133097.pbs-m1.metacentrum.cz.SC: line 10: 99921 Killed                  ./Bella -ph -m -e -i ../../../../Benchmark/5_20_80_60763325683326272809291107899641647169.cnf -n -t 7200 -s 5_20_80_60763325683326272809291107899641647169__n__1.stat
+cp: cannot stat '5_20_80_60763325683326272809291107899641647169__n__1.stat': No such file or directory
+Cgroup memsw limit exceeded: oom-kill:constraint=CONSTRAINT_MEMCG,nodemask=(null),cpuset=3133097.pbs-m1.metacentrum.cz,mems_allowed=0-1,oom_memcg=/pbs_jobs.service/jobid/3133097.pbs-m1.metacentrum.cz,task_memcg=/pbs_jobs.service/jobid/3133097.pbs-m1.metacentrum.cz,task=Bella,pid=99921,uid=8244

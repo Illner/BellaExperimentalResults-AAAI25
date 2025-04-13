@@ -1,0 +1,2 @@
+WARNING: the following configuration has been adjusted: Cara caching scheme (component caching) - use variable to literal mapping = false
+/var/spool/pbs/mom_priv/jobs/1893423.pbs-m1.metacentrum.cz.SC: line 9: 822053 Killed                  ./Bella -ka -m -e -ehc_rhc -c_ccs -i ../../../../Benchmark/15_3_60_64959363638386584845684311373992560281.cnf -n -t 7200 -s 15_3_60_64959363638386584845684311373992560281__c__3.stat
