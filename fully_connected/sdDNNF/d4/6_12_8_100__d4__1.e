@@ -1,0 +1,2 @@
+/var/spool/pbs/mom_priv/jobs/2932899.pbs-m1.metacentrum.cz.SC: line 10: 987305 Killed                  ./d4 -dDNNF ../Benchmark/6_12_8_100.cnf
+Cgroup mem limit exceeded: oom-kill:constraint=CONSTRAINT_MEMCG,nodemask=(null),cpuset=2932899.pbs-m1.metacentrum.cz,mems_allowed=0-1,oom_memcg=/pbs_jobs.service/jobid/2932899.pbs-m1.metacentrum.cz,task_memcg=/pbs_jobs.service/jobid/2932899.pbs-m1.metacentrum.cz,task=d4,pid=987305,uid=8244
